@@ -1,0 +1,23 @@
+Port listing:
+    * ss -at ---> for TCP protocol
+    * ss -au ---> for UDP protocol
+    * ss -aut ---> for both TCP and UDP
+    * sudo lsof -i -P -n | grep LISTEN
+
+History of commands:
+    * history
+
+History of mysql commands:
+    * cat ~/.mysql_history
+
+Preview of networking interfaces and addresses;
+    * ip addr
+
+Connecting to MySQl server:
+    * mysql -h serverAddress -u username -ppassword
+
+Services commands:
+    * systemctl status service
+    * systemctl restart service
+
+
